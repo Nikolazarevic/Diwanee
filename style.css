@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto; }
+
+#container {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfbfb; }
+  #container #header {
+    width: 100%;
+    height: 695px;
+    background-image: url(Images/headerBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; }
+    #container #header .menu {
+      width: 100%;
+      margin-top: 30px; }
+      #container #header .menu .toggle {
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        color: #000000;
+        display: none; }
+      #container #header .menu .nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap; }
+        #container #header .menu .nav .logo {
+          flex: 1;
+          align-self: center;
+          display: flex;
+          justify-content: space-between; }
+        #container #header .menu .nav .navBar {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          #container #header .menu .nav .navBar li {
+            text-align: center;
+            list-style: none;
+            padding: 0 10px;
+            margin-right: 40px;
+            display: flex; }
+            #container #header .menu .nav .navBar li a {
+              display: inline-block;
+              color: #222222;
+              text-decoration: none;
+              margin: auto;
+              font-size: 14px;
+              cursor: pointer;
+              white-space: nowrap; }
+              #container #header .menu .nav .navBar li a:hover {
+                color: #c41230; }
+          #container #header .menu .nav .navBar .navFolow {
+            display: none; }
+    #container #header .innerHeader {
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column; }
+      #container #header .innerHeader .diwanee {
+        margin: auto;
+        margin-bottom: 80px;
+        display: flex; }
+        #container #header .innerHeader .diwanee h1 {
+          color: #222222;
+          font-size: 62.84px;
+          border-bottom: 2px solid #c41230;
+          padding-bottom: 40px; }
+      #container #header .innerHeader p {
+        font-family: Helvetica;
+        color: #222222;
+        font-size: 24px;
+        font-weight: 400; }
+      #container #header .innerHeader .mobile {
+        display: none; }
+  #container #columns {
+    width: 100%;
+    display: flex;
+    margin-bottom: 138px; }
+    #container #columns .column {
+      display: flex;
+      flex-basis: 33.33%; }
+      #container #columns .column:hover {
+        background-color: #ededed;
+        cursor: pointer; }
+      #container #columns .column .innerColumn {
+        width: 80%;
+        display: flex;
+        margin: 40px auto 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; }
+        #container #columns .column .innerColumn .columnTitle {
+          margin-bottom: 40px;
+          display: flex;
+          flex-direction: column; }
+          #container #columns .column .innerColumn .columnTitle img {
+            max-width: 86px;
+            width: 100%;
+            max-height: 86px;
+            height: 100%; }
+          #container #columns .column .innerColumn .columnTitle .txtTitle {
+            color: #222222;
+            font-size: 18px;
+            margin: 43px auto;
+            display: flex; }
+            #container #columns .column .innerColumn .columnTitle .txtTitle h3 {
+              word-break: break-all;
+              border-bottom: 2px solid #c41230;
+              padding-bottom: 30px; }
+        #container #columns .column .innerColumn .content {
+          text-align: justify; }
+          #container #columns .column .innerColumn .content p {
+            color: #666666;
+            font-size: 16px;
+            margin-bottom: 40px; }
+  #container #jobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    #container #jobs .jobsTitle {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #container #jobs .jobsTitle h5 {
+        color: #999999;
+        font-size: 14px; }
+      #container #jobs .jobsTitle h1 {
+        color: #222222;
+        font-size: 50px;
+        margin: 45px 0 118px 0;
+        border-bottom: 2px solid #c41230;
+        padding-bottom: 45px; }
+      #container #jobs .jobsTitle h3 {
+        text-align: center;
+        font-weight: normal; }
+    #container #jobs .jobsColumns {
+      width: 100%;
+      margin: 90px 0;
+      display: flex;
+      flex-direction: column; }
+      #container #jobs .jobsColumns .innerColumns {
+        width: 100%; }
+        #container #jobs .jobsColumns .innerColumns .column {
+          width: 60%;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: row; }
+          #container #jobs .jobsColumns .innerColumns .column .aboutJob {
+            padding: 50px 0;
+            display: flex;
+            flex-direction: column;
+            flex: 1; }
+            #container #jobs .jobsColumns .innerColumns .column .aboutJob .nameOfJob {
+              color: #222222;
+              font-size: 20px; }
+            #container #jobs .jobsColumns .innerColumns .column .aboutJob .description {
+              color: #222222;
+              font-size: 18px;
+              margin: 28px 0 37px 0; }
+            #container #jobs .jobsColumns .innerColumns .column .aboutJob .skill {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              flex-wrap: wrap; }
+              #container #jobs .jobsColumns .innerColumns .column .aboutJob .skill span {
+                width: 22%;
+                height: 32px;
+                border: 1px solid #bbbbbb;
+                border-radius: 2px;
+                display: flex; }
+                #container #jobs .jobsColumns .innerColumns .column .aboutJob .skill span p {
+                  color: #c41230;
+                  margin: auto; }
+          #container #jobs .jobsColumns .innerColumns .column .signIn {
+            flex: 1;
+            display: flex; }
+            #container #jobs .jobsColumns .innerColumns .column .signIn .btn {
+              width: 165px;
+              height: 43px;
+              background-color: #fbfbfb;
+              border: 2px solid #222222;
+              border-radius: 2px;
+              margin: auto; }
+    #container #jobs .loadJobs {
+      width: 222px;
+      height: 52px;
+      background-color: rgba(215, 215, 215, 0.42);
+      text-decoration: none;
+      border: none;
+      margin: 0 auto; }
+      #container #jobs .loadJobs:hover {
+        background-color: #222222;
+        color: #f2f2f2;
+        cursor: pointer; }
+  #container #aboutCompany {
+    width: 100%;
+    margin: 130px 0 105px 0; }
+    #container #aboutCompany .innerCompany {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column; }
+      #container #aboutCompany .innerCompany .companyTitle h5 {
+        color: #999999;
+        font-size: 14px;
+        margin-top: 90px; }
+      #container #aboutCompany .innerCompany .companyTitle h1 {
+        color: #222222;
+        font-size: 50px;
+        margin: 50px 0;
+        border-bottom: 2px solid #c41230;
+        padding-bottom: 50px; }
+      #container #aboutCompany .innerCompany .contentCompany p {
+        color: #222222;
+        font-size: 18px;
+        margin-top: 63px;
+        text-align: left; }
+  #container #folowUs {
+    width: 100%; }
+    #container #folowUs .innerFolow {
+      width: 20%;
+      margin: 105px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column; }
+      #container #folowUs .innerFolow .folowTitle {
+        color: #999999;
+        font-size: 14px;
+        margin-bottom: 26px; }
+  #container #footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222; }
+    #container #footer .rows {
+      width: 70%;
+      margin: auto;
+      padding: 140px 0 100px 0;
+      display: flex;
+      justify-content: space-between; }
+      #container #footer .rows .row {
+        flex-basis: 30%; }
+        #container #footer .rows .row .titleRow {
+          display: flex;
+          margin-bottom: 28px; }
+          #container #footer .rows .row .titleRow h4 {
+            color: #f2f2f2;
+            font-size: 16px;
+            margin: auto 10px; }
+        #container #footer .rows .row .contentRow {
+          color: #666666;
+          font-size: 15px; }
+          #container #footer .rows .row .contentRow p {
+            text-decoration: none; }
+    #container #footer .copyright {
+      width: 100%;
+      padding: 30px 0;
+      background-color: #1e1e1e;
+      display: flex; }
+      #container #footer .copyright .innerCopyright {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between; }
+        #container #footer .copyright .innerCopyright .nameCopyright {
+          flex-basis: 50%;
+          display: flex; }
+          #container #footer .copyright .innerCopyright .nameCopyright p {
+            color: rgba(242, 242, 242, 0.2);
+            font-size: 12px;
+            margin: auto; }
+          #container #footer .copyright .innerCopyright .nameCopyright .mobile {
+            display: none; }
+        #container #footer .copyright .innerCopyright .moreFolow {
+          flex-basis: 30%;
+          display: flex;
+          justify-content: flex-end; }
+          #container #footer .copyright .innerCopyright .moreFolow img {
+            margin-right: 30px; }
+          #container #footer .copyright .innerCopyright .moreFolow p {
+            color: #666666;
+            font-size: 14px; }
+          #container #footer .copyright .innerCopyright .moreFolow a {
+            text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
